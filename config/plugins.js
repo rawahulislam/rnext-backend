@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
           apiKey: env('SENDGRID_API_KEY'),
         },
         settings: {
-          defaultFrom: '8715096926.abd@gmail.com',
+          defaultFrom: 'noreply@rnext.in',
           defaultReplyTo: 'noreply@rnext.in',
         },
       },

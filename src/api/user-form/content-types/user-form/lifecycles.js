@@ -4,7 +4,7 @@ module.exports = {
         const emailService = strapi.plugins['email'].services.email;
         const emailOptions = {
         to: '8715096926.abd@gmail.com', // Replace with the recipient's email address
-        from: { name : 'RNEXT', email : '8715096926.abd@gmail.com' } , // Replace with your verified sender email
+        from: { name : 'RNEXT', email : 'noreply@rnext.in' } , // Replace with your verified sender email
         subject: `New Client Query`,
         html: `
         <div style="background-color: #f4f4f4; padding: 20px;">
@@ -17,7 +17,7 @@ module.exports = {
         }
       const Clientemail = {
         to: result.ClientEmail,
-        from : { name : 'RNEXT', email : '8715096926.abd@gmail.com' },
+        from : { name : 'RNEXT', email : 'noreply@rnext.in' },
         subject : 'Thank You for Your Query',
         text : 'Thankyou for contacting RNEXT, we have recieved your query, our team will get back to you shortly',
         html: `
