@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_forms",
+  "info": {
+    "singularName": "user-form",
+    "pluralName": "user-forms",
+    "displayName": "User-Form"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ClientName": {
+      "type": "string",
+      "required": true
+    },
+    "ClientEmail": {
+      "type": "email",
+      "required": true
+    },
+    "ClientServices": {
+      "type": "text",
+      "required": true
+    },
+    "ClientMessage": {
+      "type": "text"
+    }
+  }
+}
